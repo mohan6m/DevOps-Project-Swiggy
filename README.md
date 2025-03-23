@@ -1,39 +1,56 @@
-# 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
+🚀 DevOps Real-time Project: Swiggy Application Deployment
+Welcome to the Swiggy Application Deployment project! In this project, I have leveraged modern DevSecOps tools to automate, secure, and optimize the deployment pipeline for a feature-rich Swiggy-like application. 🎉
 
-In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
-## 🛠️ Tools & Services Used:
+This project showcases Infrastructure as Code (IaC), Continuous Integration (CI), Continuous Deployment (CD), Containerization, and Security Best Practices in a real-world scenario.
 
-1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-2. **GitHub** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-3. **Jenkins** ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-4. **SonarQube** ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-5. **OWASP** ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-6. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
-7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
+🔥 Tech Stack & Tools Used
+The project integrates multiple DevOps tools for infrastructure provisioning, CI/CD automation, security analysis, and container management:
 
----
+Terraform – Infrastructure as Code (IaC) for cloud provisioning
+GitHub – Version control and source code repository
+Jenkins – Continuous Integration & Deployment (CI/CD)
+SonarQube – Static code analysis for code quality
+OWASP ZAP – Security vulnerability scanning
+Trivy – Container image vulnerability scanning
+Docker & DockerHub – Containerization and image hosting
+📂 Project Architecture
+The Swiggy Application Deployment project follows a structured CI/CD pipeline:
 
-### 📹 Video Link: [**Click Here**](https://youtu.be/x55z7rk0NAU?si=gM1_61wUoq3ChiHD)
+✅ Steps in the Workflow
+Code Management: Developers push the latest application code to GitHub.
+Automated Build & Testing: Jenkins automatically triggers builds and runs unit tests.
+Static Code Analysis: SonarQube scans for code quality issues.
+Security & Vulnerability Checks:
+OWASP ZAP performs penetration testing.
+Trivy scans Docker images for vulnerabilities.
+Containerization: Docker is used to build and package the application.
+Deployment to Cloud: The containerized app is deployed using Terraform & AWS ECS/Kubernetes.
+🛠️ Setup & Installation
+1️⃣ Prerequisites
+Ensure you have the following installed:
 
-### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/KastroVKiran/Terraform-Script-Swiggy-Kastro.git)
+Terraform
+Jenkins
+Docker
+SonarQube
+Trivy
+OWASP ZAP
+An AWS Account with necessary IAM permissions
+2️⃣ Infrastructure Provisioning with Terraform
+Use Terraform to set up AWS resources:
 
-### 📺 Docker Playlist: [**Watch on YouTube**](https://youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh&si=c75uaxvjazr-mIdw)
+terraform init
+terraform plan
+terraform apply
+📌 Architecture Diagram
+Architecture
 
----
+📜 License
+This project is open-source and available under the MIT License.
 
-## About Me  
-<img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1733356800&v=beta&t=bz-SXs7FHwIDqQ9xlPibErrGvpHDdAjMJEr9WqHsi9A" alt="Kastro Profile Image" width="150" height="150" style="border-radius:50%;">
+📩 Contact
+For any queries or collaborations, reach out to me at:
+📧 Email: mohannaik050@gmail.com
+🌐 LinkedIn: www.linkedin.com/in/mohan-naik-megavath-431797188
 
-**Kastro**    
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kastro-kiran/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KastroVKiran)  
-
----
-
-## 📢 **Share Your Experience!**
-
-If you've successfully deployed the **Swiggy Clone App** using this project, I'd love to hear about it!  
-- 📹 **Post your deployment video** and **tag me on LinkedIn**: [**Kastro Kiran**](https://www.linkedin.com/in/kastro-kiran/)
-- 💬 **Share your experience** of deploying the app and the tools you used.
-
-> “DevOps is not just a job; it's a journey to continuously improve processes and automate solutions.” – **Kastro**
+Happy Coding! 🚀
